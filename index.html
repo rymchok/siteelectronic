@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сервис Электроник — ремонт телефонов и компьютеров в Хабаровске</title>
+<meta name="description" content="Авторизированный сервисный центр в Хабаровске: ремонт телефонов, компьютеров и цифровой техники, 5 адресов. Телефон +7 924 117-54-54.">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1557E5}a:hover{color:#0B3FAE}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@keyframes dc-rise{from{opacity:.2;translate:0 36px}to{opacity:1;translate:0 0}}
+@keyframes dc-bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes dc-float{0%,100%{translate:0 0}50%{translate:0 -10px}}
+#repair>div>div,#shop>div>div,#contacts>div>div{transition:transform .25s ease,box-shadow .25s ease}
+#repair>div>div:hover,#shop>div>div:hover,#contacts>div>div:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(11,27,46,.12)}
+@media (prefers-reduced-motion:no-preference){
+#top svg{animation:dc-float 6s ease-in-out infinite}
+@supports (animation-timeline:view()){
+#top>div,#repair h2,#repair>p,#repair>div>div,#shop h2,#shop>p,#shop>div>div,#about h2,#about>div>div>div,#contacts h2,#contacts>div>div{animation:dc-rise linear both;animation-timeline:view();animation-range:entry 0% entry 45%}
+#repair>div>div:nth-child(2),#shop>div>div:nth-child(2),#about>div>div>div:nth-child(2),#contacts>div>div:nth-child(2){animation-range:entry 8% entry 53%}
+#repair>div>div:nth-child(3),#shop>div>div:nth-child(3),#about>div>div>div:nth-child(3),#contacts>div>div:nth-child(3){animation-range:entry 16% entry 61%}
+#shop>div>div:nth-child(4),#about>div>div>div:nth-child(4),#contacts>div>div:nth-child(4){animation-range:entry 24% entry 69%}
+#contacts>div>div:nth-child(5){animation-range:entry 32% entry 77%}
+#pb{animation:dc-bar linear both;animation-timeline:scroll(root)}
+}
+}
+</style>
+</head>
+<body>
+<div style="background:#F4F7FB;color:#0B1B2E;font-family:Manrope,'Segoe UI',Arial,sans-serif;line-height:1.5">
+
+<header style="position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.88);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid #DCE3EE">
+<div style="max-width:1200px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="#top" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#0B1B2E">
+<span style="width:40px;height:40px;border-radius:10px;background:#1557E5;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px">С</span>
+<span style="font-weight:800;font-size:20px">Сервис Электроник</span>
+</a>
+<nav style="display:flex;flex-wrap:wrap;align-items:center;gap:24px;font-weight:600;font-size:15px">
+<a href="#repair" style="color:#0B1B2E;text-decoration:none">Ремонт</a>
+<a href="#shop" style="color:#0B1B2E;text-decoration:none">Магазин</a>
+<a href="#about" style="color:#0B1B2E;text-decoration:none">О нас</a>
+<a href="#contacts" style="background:#1557E5;color:#fff;text-decoration:none;padding:12px 20px;border-radius:10px">Адреса</a>
+</nav>
+</div>
+<div id="pb" aria-hidden="true" style="position:absolute;left:0;bottom:-1px;width:100%;height:3px;background:#1557E5;transform-origin:left;transform:scaleX(0)"></div>
+</header>
+
+<section id="top" style="max-width:1200px;margin:0 auto;padding:72px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:48px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:24px">
+<span style="align-self:flex-start;background:#E3ECFD;color:#0B3FAE;font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px">Авторизированный сервисный центр · Хабаровск</span>
+<h1 style="margin:0;font-size:clamp(40px,6vw,68px);line-height:1.05;font-weight:800;letter-spacing:-0.02em">Чиним раз и навсегда</h1>
+<p style="margin:0;font-size:19px;color:#4A5A70;max-width:520px">17 лет в Хабаровске и 5 сервисных центров. Ремонтируем телефоны, компьютеры и цифровую технику — и продаём телефоны, аксессуары и запчасти.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="#contacts" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;padding:16px 28px;border-radius:12px;min-height:20px">Найти ближайший сервис</a>
+<a href="#repair" style="background:#fff;color:#0B1B2E;text-decoration:none;font-weight:700;padding:16px 28px;border-radius:12px;border:1px solid #DCE3EE">Что мы ремонтируем</a>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<svg aria-hidden="true" viewBox="0 0 560 300" style="width:100%;height:auto;display:block"><rect width="560" height="300" rx="24" fill="#E3ECFD"></rect><circle cx="480" cy="50" r="80" fill="#C9DBFB"></circle><circle cx="60" cy="270" r="64" fill="#C9DBFB"></circle><rect x="120" y="60" width="270" height="170" rx="12" fill="#0B1B2E"></rect><rect x="132" y="72" width="246" height="146" rx="6" fill="#1557E5"></rect><circle cx="255" cy="145" r="32" fill="#fff"></circle><path d="M240 145l11 11 21-24" fill="none" stroke="#1557E5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path><rect x="90" y="228" width="330" height="14" rx="7" fill="#0B1B2E"></rect><rect x="355" y="100" width="104" height="184" rx="18" fill="#fff" stroke="#0B1B2E" stroke-width="6"></rect><rect x="368" y="122" width="78" height="136" rx="8" fill="#E3ECFD"></rect><circle cx="407" cy="190" r="22" fill="none" stroke="#1557E5" stroke-width="9" stroke-dasharray="7 6"></circle><circle cx="407" cy="190" r="9" fill="#1557E5"></circle><rect x="394" y="108" width="26" height="5" rx="2.5" fill="#0B1B2E"></rect><rect x="40" y="110" width="56" height="56" rx="12" fill="#fff"></rect><rect x="56" y="126" width="24" height="24" fill="none" stroke="#1557E5" stroke-width="4"></rect><path d="M63 118v8M73 118v8M63 150v8M73 150v8" stroke="#1557E5" stroke-width="4" stroke-linecap="round"></path></svg>
+<div style="background:#0B1B2E;color:#fff;border-radius:24px;padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:28px 20px">
+<div><div style="font-size:48px;font-weight:800;line-height:1">17</div><div style="color:#B7C3D6;font-size:15px;margin-top:6px">лет в Хабаровске</div></div>
+<div><div style="font-size:48px;font-weight:800;line-height:1">5</div><div style="color:#B7C3D6;font-size:15px;margin-top:6px">сервисных центров</div></div>
+<div><div style="font-size:48px;font-weight:800;line-height:1">4.8</div><div style="color:#B7C3D6;font-size:15px;margin-top:6px">рейтинг в 2ГИС</div></div>
+<div><div style="font-size:48px;font-weight:800;line-height:1">1449</div><div style="color:#B7C3D6;font-size:15px;margin-top:6px">отзывов клиентов</div></div>
+</div>
+</div>
+</section>
+
+<section id="repair" style="max-width:1200px;margin:0 auto;padding:40px 24px">
+<h2 style="margin:0 0 8px;font-size:36px;font-weight:800;letter-spacing:-0.01em">Ремонт</h2>
+<p style="margin:0 0 28px;color:#4A5A70;font-size:17px">Диагностируем и возвращаем технику к жизни.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:10px">
+<span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:8px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></span>
+<h3 style="margin:0;font-size:22px;font-weight:800">Ремонт телефонов</h3>
+<p style="margin:0;color:#4A5A70">Замена экранов, аккумуляторов и других деталей, восстановление после влаги и ударов.</p>
+</div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:10px">
+<span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:8px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="11" rx="1.5"></rect><path d="M2 20h20"></path></svg></span>
+<h3 style="margin:0;font-size:22px;font-weight:800">Ремонт компьютеров</h3>
+<p style="margin:0;color:#4A5A70">Ноутбуки и настольные ПК: диагностика, чистка, замена комплектующих, настройка.</p>
+</div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:10px">
+<span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:8px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg></span>
+<h3 style="margin:0;font-size:22px;font-weight:800">Ремонт цифровой техники</h3>
+<p style="margin:0;color:#4A5A70">Планшеты, камеры и другая цифровая техника — оценим и починим.</p>
+</div>
+</div>
+</section>
+
+<section id="shop" style="max-width:1200px;margin:0 auto;padding:40px 24px">
+<h2 style="margin:0 0 8px;font-size:36px;font-weight:800;letter-spacing:-0.01em">Магазин</h2>
+<p style="margin:0 0 28px;color:#4A5A70;font-size:17px">Всё для вашего устройства — в тех же центрах, где его чинят.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:24px"><span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></span><h3 style="margin:0 0 8px;font-size:20px;font-weight:800">Мобильные телефоны</h3><p style="margin:0;color:#4A5A70">Смартфоны для работы, учёбы и жизни.</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:24px"><span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v5M15 2v5M6 7h12v4a6 6 0 0 1-12 0zM12 17v5"></path></svg></span><h3 style="margin:0 0 8px;font-size:20px;font-weight:800">Аксессуары</h3><p style="margin:0;color:#4A5A70">Чехлы, стёкла, кабели, зарядки.</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:24px"><span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"></rect><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"></path></svg></span><h3 style="margin:0 0 8px;font-size:20px;font-weight:800">Запчасти</h3><p style="margin:0;color:#4A5A70">Детали для телефонов — для мастеров и для себя.</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:24px"><span style="width:52px;height:52px;border-radius:14px;background:#E3ECFD;color:#1557E5;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15l2-5h10l4 5v3H3z"></path><circle cx="7.5" cy="18.5" r="2"></circle><circle cx="16.5" cy="18.5" r="2"></circle></svg></span><h3 style="margin:0 0 8px;font-size:20px;font-weight:800">Радиоуправляемые модели</h3><p style="margin:0;color:#4A5A70">Модели для хобби и подарков.</p></div>
+</div>
+</section>
+
+<section id="about" style="background:#0B1B2E;color:#fff;margin-top:40px">
+<div style="max-width:1200px;margin:0 auto;padding:72px 24px">
+<h2 style="margin:0 0 40px;font-size:36px;font-weight:800;letter-spacing:-0.01em">Почему выбирают нас</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px">
+<div><span style="width:52px;height:52px;border-radius:14px;background:rgba(255,255,255,0.08);color:#8FB3FF;display:flex;align-items:center;justify-content:center;margin-bottom:16px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M8.5 12l2.5 2.5L15.5 10"></path></svg></span><h3 style="margin:0 0 8px;font-size:22px;font-weight:800">Авторизированный сервис</h3><p style="margin:0;color:#B7C3D6">Подтверждённая организация с официальным статусом сервисного центра.</p></div>
+<div><span style="width:52px;height:52px;border-radius:14px;background:rgba(255,255,255,0.08);color:#8FB3FF;display:flex;align-items:center;justify-content:center;margin-bottom:16px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span><h3 style="margin:0 0 8px;font-size:22px;font-weight:800">17 лет опыта</h3><p style="margin:0;color:#B7C3D6">Работаем в Хабаровске с давних времён — и знаем, как чинить надолго.</p></div>
+<div><span style="width:52px;height:52px;border-radius:14px;background:rgba(255,255,255,0.08);color:#8FB3FF;display:flex;align-items:center;justify-content:center;margin-bottom:16px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></span><h3 style="margin:0 0 8px;font-size:22px;font-weight:800">5 центров в городе</h3><p style="margin:0;color:#B7C3D6">Сервис рядом: выбирайте удобный адрес и приходите.</p></div>
+<div><span style="width:52px;height:52px;border-radius:14px;background:rgba(255,255,255,0.08);color:#8FB3FF;display:flex;align-items:center;justify-content:center;margin-bottom:16px"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"></path></svg></span><h3 style="margin:0 0 8px;font-size:22px;font-weight:800">Рейтинг 4.8</h3><p style="margin:0;color:#B7C3D6">1449 отзывов клиентов в справочнике 2ГИС.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contacts" style="max-width:1200px;margin:0 auto;padding:72px 24px">
+<h2 style="margin: 0 0 28px; font-size: 36px; font-weight: 800; letter-spacing: -0.01em; position: relative">Адреса</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px"><h3 style="margin:0 0 4px;font-size:20px;font-weight:800">ул. Шелеста, 116А</h3><p style="margin:0 0 14px;color:#4A5A70">3-й павильон</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px"><a href="https://yandex.ru/maps/?rtext=~Хабаровск,%20улица%20Шелеста,%20116А" target="_blank" rel="noopener" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">Построить маршрут</a><a href="https://2gis.ru/khabarovsk/search/Хабаровск,%20улица%20Шелеста,%20116А" target="_blank" rel="noopener" style="background:#E3ECFD;color:#0B3FAE;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">2ГИС</a></div><p style="margin:0;font-size:15px">Пн–пт: 10:00–19:00<br>Сб: 10:00–17:00<br>Вс: 11:00–17:00</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px"><h3 style="margin:0 0 4px;font-size:20px;font-weight:800">ул. Карла Маркса, 59</h3><p style="margin:0 0 14px;color:#4A5A70">Во дворе ТЦ «Дом Одежды»</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px"><a href="https://yandex.ru/maps/?rtext=~Хабаровск,%20улица%20Карла%20Маркса,%2059" target="_blank" rel="noopener" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">Построить маршрут</a><a href="https://2gis.ru/khabarovsk/search/Хабаровск,%20улица%20Карла%20Маркса,%2059" target="_blank" rel="noopener" style="background:#E3ECFD;color:#0B3FAE;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">2ГИС</a></div><p style="margin:0;font-size:15px">Пн–пт: 10:00–19:00<br>Сб–вс: 10:00–17:00</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px"><h3 style="margin:0 0 4px;font-size:20px;font-weight:800">ул. Ворошилова, 29Б</h3><p style="margin:0 0 14px;color:#4A5A70">2-й этаж, микрорайон Южный</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px"><a href="https://yandex.ru/maps/?rtext=~Хабаровск,%20улица%20Ворошилова,%2029Б" target="_blank" rel="noopener" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">Построить маршрут</a><a href="https://2gis.ru/khabarovsk/search/Хабаровск,%20улица%20Ворошилова,%2029Б" target="_blank" rel="noopener" style="background:#E3ECFD;color:#0B3FAE;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">2ГИС</a></div><p style="margin:0;font-size:15px">Пн–пт: 10:00–19:00<br>Сб: 10:00–17:00<br>Вс: 11:00–17:00</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px"><h3 style="margin:0 0 4px;font-size:20px;font-weight:800">ул. Флегонтова, 4</h3><p style="margin:0 0 14px;color:#4A5A70">1-й этаж</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px"><a href="https://yandex.ru/maps/?rtext=~Хабаровск,%20улица%20Флегонтова,%204" target="_blank" rel="noopener" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">Построить маршрут</a><a href="https://2gis.ru/khabarovsk/search/Хабаровск,%20улица%20Флегонтова,%204" target="_blank" rel="noopener" style="background:#E3ECFD;color:#0B3FAE;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">2ГИС</a></div><p style="margin:0;font-size:15px">Пн–пт: 10:00–19:00<br>Сб: 10:00–17:00<br>Вс: выходной</p></div>
+<div style="background:#fff;border:1px solid #DCE3EE;border-radius:16px;padding:28px"><h3 style="margin:0 0 4px;font-size:20px;font-weight:800">ул. Волочаевская, 33</h3><p style="margin:0 0 14px;color:#4A5A70">2-й этаж, рядом со школой №19</p><div style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px"><a href="https://yandex.ru/maps/?rtext=~Хабаровск,%20улица%20Волочаевская,%2033" target="_blank" rel="noopener" style="background:#1557E5;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">Построить маршрут</a><a href="https://2gis.ru/khabarovsk/search/Хабаровск,%20улица%20Волочаевская,%2033" target="_blank" rel="noopener" style="background:#E3ECFD;color:#0B3FAE;text-decoration:none;font-weight:700;font-size:14px;padding:12px 16px;border-radius:10px">2ГИС</a></div><p style="margin:0;font-size:15px">Пн–пт: 10:00–19:00<br>Сб: 10:00–17:00<br>Вс: выходной</p></div>
+<div style="background:#1557E5;color:#fff;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px;justify-content:center">
+<h3 style="margin:0;font-size:24px;font-weight:800">Сломалось устройство?</h3>
+<p style="margin:0">Приходите в любой из пяти центров — починим раз и навсегда.</p>
+<p style="margin:0;font-weight:800;font-size:20px">Телефон: <a href="tel:+79241175454" style="color:#fff;text-decoration:underline">+7 924 117-54-54</a></p>
+</div>
+</div>
+</section>
+
+<footer style="border-top:1px solid #DCE3EE;background:#fff">
+<div style="max-width:1200px;margin:0 auto;padding:24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;color:#4A5A70;font-size:14px">
+<span>© Сервис Электроник · Авторизированный сервисный центр, Хабаровск</span>
+<span>Ремонт телефонов · компьютеров · цифровой техники</span>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
